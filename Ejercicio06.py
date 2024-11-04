@@ -5,7 +5,7 @@
 Asignaturas = ['Matemáticas', 'Física', 'Química', 'Historia', 'Lengua']
 Aprobadas = []
 for Asignatura in Asignaturas:
-    Nota = int(input('¿Qué nota has sacado en Asignaturas ' + Asignatura + '? '))
+    Nota = int(input('¿Qué nota has sacado en ' + Asignatura + '? '))
     if Nota >=5:
         Aprobadas.append(Asignatura)
 for Asignatura in Aprobadas:
